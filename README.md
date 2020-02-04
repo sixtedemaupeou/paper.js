@@ -1,5 +1,12 @@
 # Paper.js - The Swiss Army Knife of Vector Graphics Scripting [![Build Status](https://travis-ci.org/paperjs/paper.js.svg?branch=develop)](https://travis-ci.org/paperjs/paper.js) [![NPM](https://img.shields.io/npm/v/paper.svg)](https://www.npmjs.com/package/paper)
 
+## Purpose of this repo
+This repo is the Panakeia organisation because we needed to implement a very simple
+change to avoid having dangling effect when editing an annotation on the PANnotator.
+Given this change which fixes paper.js the way we use it caused a number of paper.js
+tests to fail we could not simply implement it by issuing a pull request in the
+original repo.
+
 If you want to work with Paper.js, simply download the latest "stable" version
 from [http://paperjs.org/download/](http://paperjs.org/download/)
 
